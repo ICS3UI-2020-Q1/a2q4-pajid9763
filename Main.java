@@ -27,14 +27,14 @@ public class Main {
   }else if (num > 40.00 && num < 80.00){
     System.out.println("They will receive 20% off.");
     double save2 = num * 0.2;
-    System.out.println("They will save $" + save2);
+    System.out.println("They will save $" + save2 + ".");
     double total2 = num - save2;
-    System.out.println("The new total is $" + total2);
+    System.out.println("The new total is $" + total2 + ".");
   
   }else if (num > 80.00 && num < 120.00){
     System.out.println("They will receive 30% off.");
     double save3 = num * 0.3;
-    System.out.println("They will save $" + save3);
+    System.out.println("They will save $" + save3 + ".");
     double total3 = num - save3;
     System.out.println("The new total is $" + total3);
   
