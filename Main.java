@@ -20,9 +20,9 @@ public class Main {
   if (num > 0.01 && num < 40.00){
     System.out.println("They will receive 10% off.");
     double save1 = num * 0.1;
-    System.out.println("They will save $" + save1);
+    System.out.println("They will save $" + save1 + ".");
     double total1 = num - save1;
-    System.out.println("The new total is $" + total1);
+    System.out.println("The new total is $" + total1 + ".");
   
   }else if (num > 40.00 && num < 80.00){
     System.out.println("They will receive 20% off.");
@@ -36,14 +36,14 @@ public class Main {
     double save3 = num * 0.3;
     System.out.println("They will save $" + save3 + ".");
     double total3 = num - save3;
-    System.out.println("The new total is $" + total3);
+    System.out.println("The new total is $" + total3 + ".");
   
   }else if (num > 120.00){
     System.out.println("They will receive 40% off.");
     double save4 = num * 0.4;
-    System.out.println("They will save $" + save4);
+    System.out.println("They will save $" + save4 + ".");
     double total4 = num - save4;
-    System.out.println("The new total is $" + total4);
+    System.out.println("The new total is $" + total4 + ".");
   }
 
     
