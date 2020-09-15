@@ -14,7 +14,7 @@ public class Main {
 
   // ask the user how much they spent
   System.out.println("Please enter the amount the customer spent");
-  double num = input.nextInt();
+  double num = input.nextDouble();
 
   // find their discount
   if (num > 0.01 && num <= 40.00){
