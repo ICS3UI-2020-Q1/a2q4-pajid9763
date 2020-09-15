@@ -13,7 +13,7 @@ public class Main {
   Scanner input = new Scanner(System.in);
 
   // ask the user how much they spent
-  System.out.println("Please enter the amount the customer spent");
+  System.out.println("Please enter the amount the customer spent ");
   double num = input.nextDouble();
 
   // find their discount
